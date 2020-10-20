@@ -1,0 +1,39 @@
+<head>
+<link rel="stylesheet" type="text/css" href="Site.css">
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<title>&#128526;MemeGenerator&#128526;</title>
+</head>
+    <div class="content container">
+        <div class="wrapper text-center">
+            <div class="row">
+                
+                <h1 style="font: 40px Lato" id="create-greetings"><b>MeMeGenerat&#128540;r</b></h1>
+                <span style='font-size:80px;'>&#129299;</span>
+                <p style="font: 24px Lato;" id="create-greetings">It's Just Fun</p>
+                <hr style="border-color: #224364" />
+                <canvas width="600" height="500" id="canvas" style="border: 1px solid #224364"></canvas><br>
+                <div id="chose-file-style" class="row" style="margin-top: 15px; margin-bottom: 15px;">
+                    <div class="col-md-offset-4 col-md-2">
+                        <input type="file" name="file" id="file" class="inputfile" />
+                        <label class="col-md-offset-7" for="file">Choose a file</label>
+                        <button type="button" id="myBtn" class="inputfile"></button>
+                    </div>
+                </div>
+                <aside id="aside" hidden>
+                    
+                    <div class="form-inline">
+                        <div class="col-md-offset-2 col-md-8 form-group">
+                            <input class="form-control tb" id="text-box1" type="text" placeholder="Top Text"><input class="form-control tb" id="size-font1" type="number" value="60" min="40" max="80" style="width: 60px; margin-left: 0;"><br>
+                        </div>
+                        <div class="col-md-offset-2 col-md-8 form-group">
+                            <input class="form-control tb" id="text-box2" type="text" placeholder="Bottom Text"><input class="form-control tb" id="size-font2" type="number" value="60" min="40" max="80" style="width: 60px; margin-left: 0;"><br>
+                            <a href="#" id="download"><img src="downloads.png" /></a><br />
+                        </div>
+                    </div>
+                    
+                </aside>
+                </div>
+            </div>
+        </div>
+<script src="memeScript.js"></script>
